@@ -1,19 +1,17 @@
 export default function ImageWrapLayout(props: ImageWrapLayoutProps) {
   const { image, content, imageLeft } = props;
 
+  const imageComp = (
+    <div className="col align-self-center">
+      <img src={image} height={200} width={400} />
+    </div>
+  );
+
   return (
     <div className="container row justify-content-evenly">
-      {imageLeft && (
-        <div className="col align-self-center">
-          <img src={image} height={200} width={400} />
-        </div>
-      )}
+      {imageLeft && imageComp}
       <div className="col">{content}</div>
-      {!imageLeft && (
-        <div className="col">
-          <img src={image} height={200} width={400} />
-        </div>
-      )}
+      {!imageLeft && imageComp}
     </div>
   );
 }
