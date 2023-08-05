@@ -1,13 +1,14 @@
 export default function SectionLayout(props: SectionLayoutProps) {
-  const { children } = props;
+  const { children, alter } = props;
 
   return (
-    <div className="row p-4" style={{ backgroundColor: "red" }}>
+    <section className={`row p-5 ${alter ? "bg-light" : null}`}>
       {children}
-    </div>
+    </section>
   );
 }
 
 interface SectionLayoutProps {
   children: JSX.Element;
+  alter?: boolean;
 }
