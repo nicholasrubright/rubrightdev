@@ -2,9 +2,9 @@ export default function ImageWrapLayout(props: ImageWrapLayoutProps) {
   const { image, content, imageLeft } = props;
 
   return (
-    <div className="container row">
+    <div className="container row justify-content-evenly">
       {imageLeft && (
-        <div className="col">
+        <div className="col align-self-center">
           <img src={image} height={200} width={400} />
         </div>
       )}
