@@ -1,10 +1,13 @@
 import IndexLayout from "./layouts/IndexLayout";
+import SideNavLayout from "./layouts/SideNavLayout";
 
 const SideNav = () => {
   return (
-    <div>
-      <h1>Side Nav!</h1>
-    </div>
+    <SideNavLayout>
+      <div>
+        <h1>Side Nav!</h1>
+      </div>
+    </SideNavLayout>
   );
 };
 
