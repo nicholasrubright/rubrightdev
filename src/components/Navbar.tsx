@@ -19,7 +19,7 @@ export default function Navbar() {
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            About Me
+            Contact Me
           </a>
         </li>
       </ul>

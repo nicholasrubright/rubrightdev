@@ -1,4 +1,8 @@
 {
+  "Hero": {
+    "header": "Welcome to my site.",
+    "message": "Making great software!"
+  },
   "AboutMe": [
     {
       "header": "About Me",
