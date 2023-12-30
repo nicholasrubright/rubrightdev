@@ -1,12 +1,18 @@
 export default function SocialMedia() {
   return (
     <div className="d-grid gap-2 d-md-flex justify-content-md-start">
-      <a href="#" className="btn btn-social-icon btn-linkedin btn-rounded">
-        <i className="bi bi-linkedin" />
+      <a
+        href="https://www.linkedin.com/in/nicholas-rubright-114087178/"
+        className="btn btn-lg btn-primary"
+      >
+        <i className="bi bi-linkedin" /> Linkedin
       </a>
-      <button type="button" className="btn btn-outline-secondary btn-lg px-4">
-        Default
-      </button>
+      <a
+        href="https://github.com/nicholasrubright"
+        className="btn btn-lg btn-primary"
+      >
+        <i className="bi bi-github" /> Github
+      </a>
     </div>
   );
 }

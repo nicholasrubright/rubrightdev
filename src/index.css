@@ -6,16 +6,16 @@
 */
 
 body {
-  background-color: #242423;
-  color: white;
+  background-color: #17183b;
+  color: #fafafa;
 }
 
 h1 {
-  color: #45cb85;
+  color: #5fbb97;
 }
 
 .profile-img {
-  box-shadow: 18px -18px teal;
+  box-shadow: 18px -18px #5fbb97;
 }
 
 .btn.btn-social-icon {
