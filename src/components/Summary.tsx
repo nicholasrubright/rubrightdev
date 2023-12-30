@@ -9,7 +9,9 @@ export default function Summary() {
         create the most efficient and reslient software that solve business
         problems.
       </p>
-      <p className="lead">Feel free to reach out if would like to connect!</p>
+      <p className="lead">
+        Feel free to reach out if you would like to connect!
+      </p>
     </>
   );
 }
