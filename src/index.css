@@ -1,0 +1,41 @@
+/*
+  white: #FAFAFA
+  dark: #17183B
+  green: #5fbb97
+  red: #ed6b86
+*/
+
+body {
+  background-color: #17183b;
+  color: #fafafa;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #5fbb97;
+}
+
+.profile-img {
+  box-shadow: 18px -18px #5fbb97;
+}
+
+.btn.btn-social-icon {
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+
+.btn.btn-rounded {
+  border-radius: 50px;
+}
+
+.btn-linkedin {
+  background: #0177b5;
+  color: #ffffff;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+  background: #015682;
+  color: #ffffff;
+}
