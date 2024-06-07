@@ -5,18 +5,27 @@
   red: #ed6b86
 */
 
+:root {
+  --my-bg-dark: #12263A;
+  --my-bg-green: #56E39F;
+  --my-bg-green-darker: #1FC173;
+  --my-bg-red: #FE5F55;
+  --my-white: #fafafa;
+}
+
 body {
-  background-color: #17183b;
-  color: #fafafa;
+  background-color: var(--my-bg-dark);
+  color: var(--my-white);
   font-family: "Open Sans", sans-serif;
 }
 
 h1 {
-  color: #5fbb97;
+  color: var(--my-bg-green);
 }
 
 .profile-img {
-  box-shadow: 18px -18px #5fbb97;
+  border: 0.5px solid var(--my-bg-dark);
+  box-shadow: 18px -18px var(--my-bg-green);
 }
 
 .btn.btn-social-icon {
@@ -26,16 +35,17 @@ h1 {
 }
 
 .btn.btn-rounded {
+  border: 1px solid var(--my-bg-dark);
   border-radius: 50px;
 }
 
-.btn-linkedin {
-  background: #0177b5;
-  color: #ffffff;
+.btn-green {
+  background: var(--my-bg-green);
+  color: var(--my-bg-dark);
 }
 
-.btn-linkedin:hover,
-.btn-linkedin:focus {
-  background: #015682;
-  color: #ffffff;
+.btn-green:hover,
+.btn-green:focus {
+  background: var(--my-bg-green-darker);
+  color: var(--my-bg-dark);
 }
